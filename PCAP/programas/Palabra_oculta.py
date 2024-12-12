@@ -10,7 +10,8 @@ for c in palabra:
         contiene=False
         break
     inicio=pos+1
+    
 if contiene:
-        print("si")
+    print("si")
 else:
-        print("no")
+    print("no")
