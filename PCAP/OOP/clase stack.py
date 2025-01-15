@@ -13,6 +13,7 @@ class Stack:
         val=self.__stack_list[-1]
         del self.__stack_list[-1]
         return val
+    
     def imprimir(self):
        print(f"pila= {self.__stack_list}")
 
